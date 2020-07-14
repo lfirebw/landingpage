@@ -1,3 +1,5 @@
 .container.container-custom{ max-width: 1640px; }
 .backgroundmain{ background:lightgray; min-height: 500px; height:70vh; }
 .row-cont-1{ background:orange;height:500px; }
+.navclass-item { transition: all ease .5s; }
+.navclass-item.active { transform: translate(0px, -25%); box-shadow: 0px 10px 12px 0px #ff6700; border-radius: 0.5em; }
