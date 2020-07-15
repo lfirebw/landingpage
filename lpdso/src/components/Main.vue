@@ -1,7 +1,9 @@
 <template>
     <main class="container container-custom">
 		<div class="row backgroundmain">
-			<div class="col-lg-8 col-md-8 col-sm-8"></div>
+			<div class="col-lg-8 col-md-8 col-sm-8">
+				<img src="../assets/Viejologo.png" style="width: 46%; max-width: 290px;" />
+			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 pt-5">
 				<h1 class="mb-3">Best MMORPG of all time, Try now!</h1>
 				<h2 class="mb-3">Free to play</h2>
