@@ -16,15 +16,15 @@ export default {
 		return {
 			buttons: [
 				{ id:1, classname:'Mage', targetId: 0,img:'12.png',imgactive:'12_c.png',active:true },
-				{ id:2, classname:'Tipo 2', targetId: 1,img:'13.png',imgactive:'13_c.png', active:false },
-				{ id:3, classname:'Tipo 3', targetId: 2,img:'15.png',imgactive:'15_c.png', active:false },
-				{ id:4, classname:'Tipo 4', targetId: 3,img:'17.png',imgactive:'17_c.png', active:false },
+				{ id:2, classname:'Stalker', targetId: 1,img:'13.png',imgactive:'13_c.png', active:false },
+				{ id:3, classname:'Hunter', targetId: 2,img:'15.png',imgactive:'15_c.png', active:false },
+				{ id:4, classname:'Knight', targetId: 3,img:'17.png',imgactive:'17_c.png', active:false },
 			],
 			contents:[
 				{ id:1, idbutton:0, classname: 'Mage', videoclass:'mago/magonew.mp4', imgclass:'Mago.png', classdesc: 'Descripcion de la clases, caracterisitca, breve resumen de la clase para iniciar a jugar con darkstory 2d online', active:true },
-				{ id:2, idbutton:1, classname: 'Tipo 2', videoclass:'acechador/acechadornew.mp4', imgclass:'Acechador.png',classdesc: 'Otra descripcion', active:false },
-				{ id:3, idbutton:2, classname: 'Tipo 3', videoclass:'cazador/cazadornew.mp4', imgclass:'Cazador.png', classdesc: 'Otra descripcion', active:false },
-				{ id:4, idbutton:3, classname: 'Tipo 4', videoclass:'caballero/caballeronew.mp4', imgclass:'Caballero.png', classdesc: 'Otra descripcion', active:false }
+				{ id:2, idbutton:1, classname: 'Stalker', videoclass:'acechador/acechadornew.mp4', imgclass:'Acechador.png',classdesc: 'Otra descripcion', active:false },
+				{ id:3, idbutton:2, classname: 'Hunter', videoclass:'cazador/cazadornew.mp4', imgclass:'Cazador.png', classdesc: 'Otra descripcion', active:false },
+				{ id:4, idbutton:3, classname: 'Knight', videoclass:'caballero/caballeronew.mp4', imgclass:'Caballero.png', classdesc: 'Otra descripcion', active:false }
 			],
 			currentSelected : 0
 		}
