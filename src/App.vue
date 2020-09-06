@@ -4,17 +4,26 @@
     <MainSection></MainSection>
     <ScreenSection></ScreenSection>
     <ClassSection></ClassSection>
-    <section class="container container-custom" style="background:#d8cab8;">
-      <div style="min-height:300px; background: lightgray">
+    <section class="container container-custom backsectionslider pb-3">
+      <div style="min-height:300px; background: #b9aa98">
         <carousel-3d :autoplay="true" :width="450" :height="250" :autoplay-timeout="5000" :controls-visible="true" :controls-prev-html="'&#10092;'" :controls-next-html="'&#10093;'">
           <slide :index="0">
-            <img src="https://nxm-mt.akamaized.net/Contents/kartrush.nexon.com/launching/images_9B452F71D3CCA09B/pc/en/slider/img5.png" />
+            <img src="./assets/slider/Active_Community.png" />
           </slide>
           <slide :index="1">
-            <img src="https://nxm-mt.akamaized.net/Contents/kartrush.nexon.com/launching/images_9B452F71D3CCA09B/pc/en/slider/img3.png" />
+            <img src="./assets/slider/Character_Customization.png" />
           </slide>
           <slide :index="2">
-            <img src="https://nxm-mt.akamaized.net/Contents/kartrush.nexon.com/launching/images_9B452F71D3CCA09B/pc/en/slider/img2.png" />
+            <img src="./assets/slider/Mounts_System.png" />
+          </slide>
+          <slide :index="3">
+            <img src="./assets/slider/Professions.png" />
+          </slide>
+          <slide :index="4">
+            <img src="./assets/slider/PvP_Arena.png" />
+          </slide>
+          <slide :index="5">
+            <img src="./assets/slider/Weekly_Events.png" />
           </slide>
         </carousel-3d>
       </div>
@@ -33,6 +42,7 @@
         </div>
       </div>
       <div class="p-5"></div>
+      <div class="p-5" style="background: #b9aa98; border-radius: 3em 0 0em 9em;"></div>
     </section>
     <footer></footer>
   </div>
@@ -71,6 +81,8 @@ body{ background:#251302;}
 }
 main { margin-top: 57px; }
 .container.container-custom{ max-width: 1640px; }
+.backsectionslider { position:relative;background-color:#d8cab8; }
+.backsectionslider:before { content:''; position: absolute; width: 100%; max-width: 500px; max-height: 490px; height: 100%; bottom: 1%; background:url('./assets/dsomonsta.png');background-size: contain; background-repeat: no-repeat; background-position: left; }
 .backgroundmain{ background:url('./assets/dsodragonarmor2.png'); background-color:#d19774; min-height: 500px; height:70vh; position: relative; background-size: contain; background-position: center; background-repeat: no-repeat; background-position-x: 40%; }
 .backgroundmain::before{
       content: '';
