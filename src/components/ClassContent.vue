@@ -17,8 +17,8 @@
                     </div>
                 </div>
                 <div class="col-6 pt-3">
-                    <h1>{{item.classname}}</h1>
-                    <h4>{{item.classdesc}}</h4>
+                    <h1 class="titleClassContent1">{{item.classname}}</h1>
+                    <h4 class="titleClassContent2">{{item.classdesc}}</h4>
                     <button type="button" class="btn btn-primary">Play Now</button>
                 </div>
             </div>

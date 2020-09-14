@@ -124,4 +124,6 @@ main { margin-top: 57px; }
     white-space: nowrap; }
   .nav-socialink li:hover { background: #353932 }
   .nav-socialink li:hover > a { color:#7a912f; }
+  .titleClassContent1 {color: #472026; text-shadow: 2px 2px 6px #efb735; font-weight: bold; font-size: xxx-large;}
+  .titleClassContent2 { text-shadow: 2px 2px 4px #3c2714; }
 </style>

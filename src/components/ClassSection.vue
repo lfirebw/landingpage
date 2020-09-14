@@ -21,10 +21,10 @@ export default {
 				{ id:4, classname:'Knight', targetId: 3,img:'17.png',imgactive:'17_c.png', active:false },
 			],
 			contents:[
-				{ id:1, idbutton:0, classname: 'Mage', videoclass:'mago/magonew.mp4', imgclass:'Mago.png', classdesc: 'Descripcion de la clases, caracterisitca, breve resumen de la clase para iniciar a jugar con darkstory 2d online', active:true },
-				{ id:2, idbutton:1, classname: 'Stalker', videoclass:'acechador/acechadornew.mp4', imgclass:'Acechador.png',classdesc: 'Otra descripcion', active:false },
-				{ id:3, idbutton:2, classname: 'Hunter', videoclass:'cazador/cazadornew.mp4', imgclass:'Cazador.png', classdesc: 'Otra descripcion', active:false },
-				{ id:4, idbutton:3, classname: 'Knight', videoclass:'caballero/caballeronew.mp4', imgclass:'Caballero.png', classdesc: 'Otra descripcion', active:false }
+				{ id:1, idbutton:0, classname: 'Mage', videoclass:'mago/magonew.mp4', imgclass:'Mago.png', classdesc: 'The Mage base his power on the elements and is able to canalize them in order to increase their secondary effects. He can attack from a short distance, nevertheless each hit deals a lot of damage.', active:true },
+				{ id:2, idbutton:1, classname: 'Stalker', videoclass:'acechador/acechadornew.mp4', imgclass:'stalker_image.png',classdesc: 'The Stalker is an shadow assassin, he uses his basic attacks to poison enemies and then fulminate them with his daggers. Also, he has the support of his “Battle Masters”, who grant an additional effect on each hit.', active:false },
+				{ id:3, idbutton:2, classname: 'Hunter', videoclass:'cazador/cazadornew.mp4', imgclass:'Cazador.png', classdesc: 'The Hunter focuses his damage on long distance shots, is faster in comparisson to the other clases and can detect enemies even if they are behind him. He carry a quiver where he stores arrows some handy stuff as bombs and traps.', active:false },
+				{ id:4, idbutton:3, classname: 'Knight', videoclass:'caballero/caballeronew.mp4', imgclass:'knight_image.png', classdesc: 'The Knight uses light and darkness in his favor, is able to create attack combinations at will, making each combination deal a different effect on the opponent, also most of his attacks are melee.', active:false }
 			],
 			currentSelected : 0
 		}
