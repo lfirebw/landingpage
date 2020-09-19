@@ -19,7 +19,9 @@
                 <div class="col-6 pt-3">
                     <h1 class="titleClassContent1">{{item.classname}}</h1>
                     <h4 class="titleClassContent2">{{item.classdesc}}</h4>
-                    <button type="button" class="btn btn-primary">Play Now</button>
+                    <div class="text-center">
+                        <a type="button" href="https://darkstory2d.com/download.php" target="__blank" class="btn myButtonT3">Play Now</a>
+                    </div>
                 </div>
             </div>
         </div>

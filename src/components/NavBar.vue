@@ -10,35 +10,35 @@
             <div class="col-sm-8">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#home" v-smooth-scroll="{ duration: 2000, offset: -50 }">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Class</a>
+                        <a class="nav-link" href="#classsection" v-smooth-scroll="{ duration: 2000, offset: -50 }">Class</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
+                        <a class="nav-link" href="#newsection" v-smooth-scroll="{ duration: 2000, offset: -50 }">News</a>
                     </li>
                 </ul>
             </div>
             <div class="col-auto">
                 <ul class="nav-socialink">
                     <li>
-                        <a href="javascript:void(0)">
+                        <a href="https://www.facebook.com/darkstoryonline" target="__blank">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)">
+                        <a href="https://www.instagram.com/darkstoryonline" target="__blank">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)">
+                        <a href="https://www.youtube.com/channel/UCeT7emdH3Bx-w3-wrEjys_Q?&ab_channel=BraveWolf" target="__blank">
                             <i class="fab fa-youtube"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)">
+                        <a href="https://discordapp.com/invite/2FDgFh3" target="__blank">
                             <i class="fab fa-discord"></i>
                         </a>
                     </li>

@@ -1,5 +1,5 @@
 <template>
-    <section class="container container-custom" style="background:#a36d49;">
+    <section id="classsection" class="container container-custom" style="background:#a36d49;">
 		<ClassContent v-for="content in contents" :item="content" :key="content.id"></ClassContent>
 		<div class="row justify-content-center">
 			<ClassButtons v-for="(button,i) in buttons" :index="i" :item="button" :key="button.id" :data-id="button.id" v-on:active_classs="activeClass"></ClassButtons>

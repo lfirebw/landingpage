@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <NavBar></NavBar>
-    <MainSection></MainSection>
+    <MainSection id="home"></MainSection>
     <ScreenSection></ScreenSection>
     <ClassSection></ClassSection>
-    <section class="container container-custom backsectionslider pb-3">
+    <section id="newsection" class="container container-custom backsectionslider pb-3">
       <div style="min-height:300px; background: #b9aa98">
         <carousel-3d :autoplay="true" :width="450" :height="250" :autoplay-timeout="5000" :controls-visible="true" :controls-prev-html="'&#10092;'" :controls-next-html="'&#10093;'">
           <slide :index="0">
@@ -28,17 +28,17 @@
         </carousel-3d>
       </div>
       <div class="text-center" style="position:relative; top:-20px;" >
-        <button class="btn btn-primary">Play Now</button>
+        <a href="https://darkstory2d.com/download.php" target="__blank" class="btn myButtonT2">Play Now</a>
       </div>
       <div class="p-2"></div>
       <h2 class="text-center">Join our community</h2>
       <div class="p-4"></div>
       <div class="row justify-content-center">
         <div class="col-sm-3 text-center">
-          <button class="btn btn-primary">Join</button>
+          <a href="https://discordapp.com/invite/2FDgFh3" target="__blank" class="btn myButtonT4">Join</a>
         </div>
         <div class="col-sm-3 text-center">
-          <button class="btn btn-primary">Visit web</button>
+          <a href="https://darkstory2d.com/" target="__blank" class="btn myButtonT3">Visit web</a>
         </div>
       </div>
       <div class="p-5"></div>
@@ -54,7 +54,6 @@ import MainSection from './components/Main.vue'
 import ScreenSection from './components/ScreenSection.vue'
 import ClassSection from './components/ClassSection.vue'
 import { Carousel3d, Slide } from 'vue-carousel-3d';
-
 
 export default {
   name: 'App',
@@ -93,7 +92,7 @@ main { margin-top: 57px; }
     position: absolute;
     border-top-right-radius: 5em;
 }
-.row-cont-1{ background: #744e34; height:500px; position:relative; color:white;}
+.row-cont-1{ background: #2d2132; height:500px; position:relative; color:white;}
 .navclass-item { transition: all ease .5s; cursor:pointer; }
 .navclass-item.active { transform: translate(0px, -25%); box-shadow: 0px 10px 12px 0px #00eaff; border-radius: 0.5em; }
 .navbar {  border-bottom: 4px solid #a86741; border-bottom-left-radius: 1.4em;}
@@ -124,6 +123,54 @@ main { margin-top: 57px; }
     white-space: nowrap; }
   .nav-socialink li:hover { background: #353932 }
   .nav-socialink li:hover > a { color:#7a912f; }
-  .titleClassContent1 {color: #472026; text-shadow: 2px 2px 6px #efb735; font-weight: bold; font-size: xxx-large;}
+  .titleClassContent1 {color: #9b5b2b; text-shadow: 2px 2px 2px #d6b377; font-weight: bold; font-size: xxx-large;}
   .titleClassContent2 { text-shadow: 2px 2px 4px #3c2714; }
+  
+  .myButton,.myButtonT2,.myButtonT3,.myButtonT4 {
+    box-shadow:inset 0px 39px 0px -24px #5f4f35;
+    background:linear-gradient(to bottom, #7d5d3b 5%, #1d3828 100%);
+    background-color:#7d5d3b;
+    border-radius:4px;
+    border:1px solid #54381e;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:21px;
+    padding:13px 15px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #4d3534;
+  }
+  .myButtonT2{
+    box-shadow:inset 0px 39px 0px -24px #a78d67;
+    background:linear-gradient(to bottom, #7d5d3b 5%, #a48962 100%);
+    text-shadow:0px 1px 0px #4d3534;
+  }
+  .myButtonT3{
+    box-shadow:inset 0px 39px 0px -24px #ce8130;
+    background:linear-gradient(to bottom, #a36d49 5%, #cd7f2c 100%);
+    text-shadow:0px 1px 0px #4d3534;
+  }
+  .myButtonT4 {
+    box-shadow:inset 0px 39px 0px -24px #b568b2;
+    background:linear-gradient(to bottom, #a4599d 5%, #6c4eb9 100%);
+  }
+  
+  .myButton:hover {
+    background:linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%);
+    background-color:#634b30;
+    color:#edb052;
+  }
+  .myButtonT2:hover{ 
+    background:linear-gradient(to bottom, #634b30 5%, #d8cab8 100%);
+    background-color:#634b30;
+  }
+  .myButtonT3:hover{
+    background:linear-gradient(to bottom, #a36d49 5%, #6f400e 100%);
+    box-shadow:inset 0px 39px 0px -24px #a98055;
+  }
+  .myButton:active {
+    position:relative;
+    top:1px;
+  }
 </style>
