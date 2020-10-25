@@ -28,10 +28,10 @@
         </carousel-3d>
       </div>
       <div class="text-center" style="position:relative; top:-20px;" >
-        <a href="https://darkstory2d.com/download.php" target="__blank" class="btn myButtonT2">Play Now</a>
+        <a href="https://darkstory2d.com/download.php" target="__blank" class="btn myButtonT2">PLAY FREE NOW</a>
       </div>
       <div class="p-2"></div>
-      <h2 class="text-center">Join our community</h2>
+      <h2 class="text-center position-relative" style="z-index:20;"><span style="background: #d8cab8a6;">Join our community</span></h2>
       <div class="p-4"></div>
       <div class="row justify-content-center">
         <div class="col-sm-3 text-center">
@@ -54,7 +54,6 @@ import MainSection from './components/Main.vue'
 import ScreenSection from './components/ScreenSection.vue'
 import ClassSection from './components/ClassSection.vue'
 import { Carousel3d, Slide } from 'vue-carousel-3d';
-
 export default {
   name: 'App',
   components: {
@@ -172,5 +171,35 @@ main { margin-top: 57px; }
   .myButton:active {
     position:relative;
     top:1px;
+  }
+  .vertical-center { margin-top: auto; margin-bottom: auto;}
+  .img-fluid{ width:100%; }
+  /* @media (min-width: 768px){
+    .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    }
+  } */
+  @media screen and (max-width: 768px) {
+    .respDiv1{ display:none; }
+    .respVideo1{ width:100%!important; }
+  }
+  @media screen and (max-width:765px){
+    .respDiv3{  text-align: center; }
+    .respImg1{ width:20%; }
+    .respText1{ font-size: xx-large; font-weight: bold; background: #d197748a; }
+    .respText2{ background: #d1977494; }
+    .respText3{ background: #d19774c9; font-weight: 700; }
+  }
+  @media screen and (max-width:575px){
+    .respDiv2 { display:none; }
+  }
+  @media screen and (max-width:450px){
+    .respText1{ font-size: x-large; }
+    .respText2{ font-size:large; font-weight: bold; }
+
+    .respText3{ overflow: auto; height: 100px; }
   }
 </style>
