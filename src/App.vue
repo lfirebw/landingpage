@@ -81,7 +81,7 @@ main { margin-top: 57px; }
 .container.container-custom{ max-width: 1640px; }
 .backsectionslider { position:relative;background-color:#d8cab8; }
 .backsectionslider:before { content:''; position: absolute; width: 100%; max-width: 500px; max-height: 490px; height: 100%; bottom: 1%; background:url('./assets/dsomonsta.png');background-size: contain; background-repeat: no-repeat; background-position: left; }
-.backgroundmain{ background:url('./assets/dsodragonarmor2.png'); background-color:#d19774; min-height: 500px; height:70vh; position: relative; background-size: contain; background-position: center; background-repeat: no-repeat; background-position-x: 40%; }
+.backgroundmain{ background:url('./assets/dsodragonarmor2x2.png'); background-color:#d19774; min-height: 500px; height:70vh; position: relative; background-size: contain; background-position: center; background-repeat: no-repeat; background-position-x: 40%; }
 .backgroundmain::before{
       content: '';
     width: 98%;
